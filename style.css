@@ -1,10 +1,20 @@
 body {
-  background-color: #0c0c0c;
-  opacity: 0.9;
-  background-image: radial-gradient(#242424 1.75px, #0c0c0c 1.75px);
-  background-size: 35px 35px;
-  color: white;
-  font-family: Monaco;
+  margin: 0;
+  color: #dadada;
+  font-family: system-ui;
+  background: #dadada;
+  font-size: 12pt;
+}
+
+.background {
+  position: absolute;
+  left: -150vw;
+  width: 200vw;
+  height: 100vh;
+  background: #35383D;
+  transform: skew(-20deg);
+  z-index: -10;
+  box-shadow: 9px 0 17px 0px grey;
 }
 
 .centered {
@@ -13,6 +23,14 @@ body {
   align-items: center;
   flex-flow: column;
   margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.right {
+  right: -35%;
+  color: #35383D;
 }
 
 a {
@@ -21,7 +39,16 @@ a {
 }
 
 h1 {
-  text-decoration: underline;
   font-size: 16pt;
   text-align: center;
+}
+
+.logo {
+  position: absolute;
+  width: 300px;
+  margin: 20px;
+  margin-left: 5%;
+  height: 140px;
+  object-position: 0% 50%;
+  object-fit: cover;
 }
