@@ -2,40 +2,19 @@ body {
   margin: 0;
   color: #dadada;
   font-family: system-ui;
-  background: #dadada;
-  font-size: 12pt;
-  opacity: 0.8;
-  background-size: 10px 10px;
-  background-image: repeating-linear-gradient(45deg, #444cf7 0, #444cf7 1px, #e5e5f7 0, #e5e5f7 50%);
-
-}
-
-.background {
-  position: absolute;
-  left: -150vw;
-  width: 200vw;
-  height: 100vh;
   background: #35383D;
-  transform: skew(-20deg);
-  z-index: -10;
-  box-shadow: 9px 0 17px 0px grey;
-  background-color: #e5e5f7;
+  font-size: 12pt;
 }
 
 .centered {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  margin: 0 auto;
+  margin: auto auto;
   position: absolute;
-  top: 50%;
-  left: 8%;
-}
-
-.right {
-  right: -38%;
-  color: #35383D;
+  top: 25%;
 }
 
 a {
@@ -49,10 +28,8 @@ h1 {
 }
 
 .logo {
-  position: absolute;
   width: 280px;
   margin: 20px;
-  margin-left: 5%;
   height: 140px;
   object-position: 0% 50%;
   object-fit: cover;
